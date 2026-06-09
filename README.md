@@ -24,5 +24,3 @@ Goal: open the `review-me` pull request, have Claude review it, and judge whethe
 4. **Judge the review.** One bug was planted on purpose. Did Claude catch it? Note what it flagged and whether it found the real problem.
 5. **Comment.** Add a one-line comment on the PR saying whether Claude caught the bug.
 6. **Submit** the pull request link.
-
-Note: the tests still pass on this change, so the PR's CI comes back green — the bug sits in new code the tests don't cover. That's the point of the lesson: a green build doesn't mean a clean change, which is why the review matters.
